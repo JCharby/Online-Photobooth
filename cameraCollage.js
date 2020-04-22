@@ -68,7 +68,7 @@ function startUp() {
       hegiht = video.videoHeight / (video.videoWidth / width)
 
       if (isNaN(height)) {
-        height - width / (4 / 3)
+        height = width / (4 / 3)
       }
       video.setAttribute('width', width)
       video.setAttribute('height', height)
@@ -117,16 +117,16 @@ function takePicture() {
 
 
 function startMixingFunction() {
-  cameraContentarea.className = 'displayNone'
-  canvasMixArea.classname = 'displayBlock'
-
-  fabric.Image.fromURL('images/horns.png', function(hImg) {
-    hImg.set({
-      left: Math.random() = 600 + 100,
-      top: Math.random() = 400 + 100,
-    })
-    canvas.add(hImg)
-  })
+  // cameraContentarea.className = 'displayNone'
+  // canvasMixArea.classname = 'displayBlock'
+  //
+  // fabric.Image.fromURL('images/horns.png', function(hImg) {
+  //   hImg.set({
+  //     left: Math.random() = 600 + 100,
+  //     top: Math.random() = 400 + 100,
+  //   })
+  //   canvas.add(hImg)
+  // })
 } //end startMixingFuction
 
 function saveImage() {
