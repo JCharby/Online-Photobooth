@@ -7,9 +7,9 @@ let video = null
 let canvasPhoto = null
 let startButton = null
 let startMixingButton = null
-let lips = null
-let glasses = null
-let horns = null
+let BeerMe = null
+let Glasses = null
+let FunHat = null
 
 let db = null
 let returnButton = null
@@ -32,9 +32,9 @@ function startUp() {
   canvasPhoto = document.querySelector('#canvasPhoto')
   photo = document.querySelector('#photo')
   startButton = document.querySelector('#startButton')
-  lips = document.querySelector('#lips')
-  glasses = document.querySelector('#glasses')
-  horns = document.querySelector('#horns')
+  BeerMe = document.querySelector('#BeerMe')
+  Glasses = document.querySelector('#Glasses')
+  FunHat = document.querySelector('#FunHat')
   db = document.querySelector('#downloadButton')
   returnButton = document.querySelector('#returnButton')
   startMixingButton = document.querySelector('#startMixingButton')
@@ -45,9 +45,9 @@ function startUp() {
   startMixingButton.addEventListener('click', startMixingFunction, false)
   downloadButton.addEventListener('click', saveImage, false)
   returnButton.addEventListener('click', returnFunction, false)
-  lips.addEventListener('click', placeImage, false)
-  glasses.addEventListener('click', placeImage, false)
-  horns.addEventListener('click', placeImage, false)
+  BeerMe.addEventListener('click', placeImage, false)
+  Glasses.addEventListener('click', placeImage, false)
+  FunHat.addEventListener('click', placeImage, false)
 
   video.addEventListener('click', function() {
     video.play()
