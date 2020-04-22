@@ -98,7 +98,7 @@ function startUp() {
 
 function clearPhoto() {
   let ctx = canvasPhoto.getContext('2d')
-  ctx.fillStyle = "#fa00ff"
+  ctx.fillStyle = "#B39C47"
   ctx.fillRect(0, 0, canvasPhoto.width, canvasPhoto.height)
   let data = canvasPhoto.toDataURL('image/png')
   photo.setAttribute('src', data)

@@ -1,19 +1,27 @@
 * {
-  border: 1px solid red;
-  margin: 0;
-  padding: 0;
+  border: 0px solid red;
+  margin: 50;
+  padding: 50;
   box-sizing: border-box;
 }
 .displayNone{display: none;}
 .displayBlock{display: block;}
 body {
-  background-color: #888;
-  color: #ddd;
+  border: 0px solid red;
+  text-align: center;
+  background-color: #333;
+  color: #eee;
   rgb(247, 217, 255)
+
+
+
 }
 
 h1 {
+  padding-top: 8em;
+  border: 0px solid red;
   color: white;
+  text-align: center;
 }
 
 #video {
@@ -33,10 +41,12 @@ h1 {
 }
 
 #canvasPhoto {
+
   display: none;
 }
 
 .camera {
+  border: 0px solid red;
   /* width: 340px; */
   display: inline-block;
 }
@@ -45,46 +55,58 @@ h1 {
   /* width: 340px; */
   display: inline-block;
   vertical-align: top;
+
+  border: 0px solid red;
+  background-color: black
 }
 
 button, #downloadButton{
   background-color: rgba(240, 0, 230, 0.5);
-  border: 1px solid rgba(255, 255, 255, 0.7);
+  border: px solid rgba(255, 255, 255, 0.7);
   box-shadow: 0px 0px 1px 2px rgba(0, 0, 0, 0.2);
   font-size: 14px;
   font-family: "Lucida Grande", "Arial", sans-serif;
   color: rgba(255, 255, 255, 1.0);
   padding: 0.5em;
   border-radius: 0.5em;
+
 }
 #startButton {
   display: block;
   position: relative;
   margin-left: auto;
   margin-right: auto;
-  bottom: 102px;
+  bottom: 50px;
 }
-section{
+/* section{
   font-size: 16px;
   font-family: "Lucida Grande", "Arial", sans-serif;
-  width: 800px;
+  width: 800px; */
 
 }
 #cameraContentarea {
-  background-color: #666;
+  background-color: #333;
 }
 
 #startMixingButton, #downloadButton, #returnButton {
-  background-color: blue;
+  background-color: #3E94B3;
   padding: 0.5em;
   color: white;
   text-decoration: none;
   margin-left: 1em;
+  margin-bottom: 2em;
+  border: 1px solid red;
 }
 /* ------------------- */
 #canvasMixArea {
   background-color: #333;
+  px;
+  margin: auto;
+  margin-top: 3em;
+
+
 }
 #c{
   background-image: url('images/checker.png');
+  margin-left: 35em;
 }
