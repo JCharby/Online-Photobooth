@@ -27,7 +27,7 @@ cameraContentarea.className = 'displayBlock'
 canvasMixArea.className = 'displayNone'
 
 video = document.querySelector('#video')
-canvasPhotophoto = document.querySelector('#canvasPhotophoto')
+canvasPhoto = document.querySelector('#canvasPhoto')
 photo = document.querySelector('#photo')
 startButton = document.querySelector('#startButton')
 lips = document.querySelector('#lips')
@@ -75,7 +75,7 @@ navigator.mediaDevices.getUserMedia({
       canvasPhoto.setAttribute('width', width)
       canvasPhoto.setAttribute('height', height)
 
-      streaming - true
+      streaming = true
     }
   }, false)
 
