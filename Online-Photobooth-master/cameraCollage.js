@@ -10,6 +10,9 @@ let startMixingButton = null
 let BeerMe = null
 let Glasses = null
 let FunHat = null
+let BigBurger = null
+let BreadBuddy = null
+let CatEyes = null
 
 let db = null
 let returnButton = null
@@ -35,6 +38,9 @@ function startUp() {
   BeerMe = document.querySelector('#BeerMe')
   Glasses = document.querySelector('#Glasses')
   FunHat = document.querySelector('#FunHat')
+  BigBurger = document.querySelector('#BigBurger')
+  BreadBuddy = document.querySelector('#BreadBuddy')
+  CatEyes = document.querySelector('#CatEyes')
   db = document.querySelector('#downloadButton')
   returnButton = document.querySelector('#returnButton')
   startMixingButton = document.querySelector('#startMixingButton')
@@ -48,6 +54,9 @@ function startUp() {
   BeerMe.addEventListener('click', placeImage, false)
   Glasses.addEventListener('click', placeImage, false)
   FunHat.addEventListener('click', placeImage, false)
+  BigBurger.addEventListener('click', placeImage, false)
+  BreadBuddy.addEventListener('click', placeImage, false)
+  CatEyes.addEventListener('click', placeImage, false)
 
   video.addEventListener('click', function() {
     video.play()
