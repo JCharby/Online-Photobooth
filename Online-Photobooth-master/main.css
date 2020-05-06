@@ -24,11 +24,33 @@ background-color: #0047AB;
 }
 
 h1 {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: -750px;
+  margin-left: -140px;
+
   padding-top: 10em;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   color: white;
   text-align: center;
-  margin-left: 400px;
+}
+
+#fred {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  margin-top: 85px;
+  margin-left: -160px;
+}
+
+#fred2 {
+position: fixed;
+top: 10%;
+left: 50%;
+margin-top: 10px;
+margin-left: -205px;
+/* border: 1px solid red; */
 }
 
 #video {
@@ -38,7 +60,7 @@ h1 {
   margin-top: -270px;
   margin-left: -250px;
 
-  border: 1px solid red;
+  border: 1px solid black;
   box-shadow: 2px 2px 3px black;
   width: 480px;
   height: 360px;
@@ -100,7 +122,7 @@ button, #downloadButton {
   margin-top: 40px;
   margin-left: -250px;
 
-  border: 1px solid red;
+  border: 1px solid black;
   box-shadow: 2px 2px 3px black;
   width: 480px;
   height: 50px;
@@ -119,7 +141,7 @@ section{
   background-color: #0047AB;
 }
 
-#startMixingButton, #downloadButton, #returnButton {
+#startMixingButton {
   background-color: #3E94B3;
   padding: 0.5em;
   /* color: white;
@@ -138,12 +160,41 @@ section{
   height: 50px;
 }
 
+#downloadButton{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 350px;
+  margin-left: 230px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width: 150px;
+  height: 35px;
+
+
+}
+
+#returnButton{
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  margin-top: 350px;
+  margin-left: -300px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width: 150px;
+  height: 35px;
+
+
+}
+
 /* ------------------- */
 #canvasMixArea {
-  background-color: #0047AB;
-  px;
-  margin: auto;
-  margin-top: 3em;
+  position: fixed;
+  top: 75%;
+  left: 35%;
+  margin-top: -750px;
+  margin-left: -140px;
 }
 
 #c {
