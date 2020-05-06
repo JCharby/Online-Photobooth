@@ -14,6 +14,7 @@
 }
 
 body {
+  position: fixed;
   text-align: center;
 border: 0px solid red;
 margin-right: 65em;
@@ -23,26 +24,39 @@ background-color: #0047AB;
 }
 
 h1 {
-  padding-top: 8em;
-  border: 0px solid red;
+  padding-top: 10em;
+  border: 1px solid red;
   color: white;
   text-align: center;
+  margin-left: 400px;
 }
 
 #video {
-  border: 1px solid black;
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  margin-top: -270px;
+  margin-left: -250px;
+
+  border: 1px solid red;
   box-shadow: 2px 2px 3px black;
-  width: 320px;
-  height: 240px;
+  width: 480px;
+  height: 360px;
+  /* margin-left: 400px; */
   /* help with camera reversal */
   transform: rotateY(180deg);
 }
 
 #photo {
+  position: fixed;
+  top: 75%;
+  left: 50%;
+  margin-top: -200px;
+  margin-left: -250px;
   border: 1px solid black;
   box-shadow: 2px 2px 3px black;
-  width: 320px;
-  height: 240px;
+  width: 480px;
+  height: 360px;
 }
 
 #canvasPhoto {
@@ -75,11 +89,24 @@ button, #downloadButton {
 }
 
 #startButton {
-  display: block;
-  position: relative;
-  margin-left: auto;
-  margin-right: auto;
-  bottom: 50px;
+  /* display: flex;
+  flex-wrap: wrap;
+  margin-left: 500px;
+  margin-right: 255px;
+  bottom: 50px; */
+  position: fixed;
+  top: 35%;
+  left: 50%;
+  margin-top: 40px;
+  margin-left: -250px;
+
+  border: 1px solid red;
+  box-shadow: 2px 2px 3px black;
+  width: 480px;
+  height: 50px;
+  /* margin-left: 400px; */
+  /* help with camera reversal */
+
 }
 
 section{
@@ -95,11 +122,20 @@ section{
 #startMixingButton, #downloadButton, #returnButton {
   background-color: #3E94B3;
   padding: 0.5em;
-  color: white;
+  /* color: white;
   text-decoration: none;
   margin-left: 1em;
   margin-bottom: 2em;
-  border: 1px solid red;
+  border: 1px solid red; */
+  position: fixed;
+  top: 81%;
+  left: 50%;
+  margin-top: 40px;
+  margin-left: -250px;
+  border: 1px solid black;
+  box-shadow: 2px 2px 3px black;
+  width: 480px;
+  height: 50px;
 }
 
 /* ------------------- */
